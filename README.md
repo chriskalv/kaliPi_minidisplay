@@ -11,13 +11,11 @@ The code is python-based. Assembly is pretty much lego-like.
 + KaliPi (consisting of a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/), a [MicroSD Card](https://www.westerndigital.com/products/memory-cards/sandisk-extreme-uhs-i-microsd#SDSQXAF-032G-GN6MA) and a [Case](https://geekworm.com/collections/raspberry-pi/products/raspberry-pi-4-model-b-armor-aluminum-alloy-case-protective-shell))
 + [Adafruit PiOLED 128x32 Display](https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage)
 
-<br></br>
 
 | Close-up of the assembled device   |
 | :-------------: | 
 | [![](https://i.imgur.com/bUT98Rx.jpg?raw=true)](https://i.imgur.com/bUT98Rx.jpg)   |   
 
-<br></br>
 
 ## Setup
 These instructions assume your KaliPi is assembled and "ready to go".
