@@ -37,4 +37,4 @@ i2c-dev
   <img class="74057-asset img-responsive" srcset="https://cdn-learn.adafruit.com/assets/assets/000/074/057/medium260/adafruit_products_i2c.png?1554480832 260w, https://cdn-learn.adafruit.com/assets/assets/000/074/057/medium640/adafruit_products_i2c.png?1554480832 640w, https://cdn-learn.adafruit.com/assets/assets/000/074/057/medium800/adafruit_products_i2c.png?1554480832 800w, https://cdn-learn.adafruit.com/assets/assets/000/074/057/large1024/adafruit_products_i2c.png?1554480832 1024w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 65vw, (max-width: 1365px) 47vw, 750px" src="https://cdn-learn.adafruit.com/assets/assets/000/074/057/medium800/adafruit_products_i2c.png?1554480832" alt="adafruit_products_i2c.png">
 </p>
 
-9. Copy `statusdisplay.py` to your device and make it autorun on startup (don't forget to edit permissions).
+9. Copy `minidisplay.py` to your device and make it autorun on startup (don't forget to edit permissions).
