@@ -37,7 +37,7 @@ bottom = height - padding
 x = 0
 
 # Load font (has to be in the same directory as minidisplay.py)
-font = ImageFont.truetype('/var/minidisplay/gamer.ttf', 9)
+font = ImageFont.truetype('/var/minidisplay/visitor.ttf', 14)
 
 # Alternatively load the default font with "font = ImageFont.load_default()"
 # Some other fonts can be found here: http://www.dafont.com/bitmap.php
@@ -53,16 +53,13 @@ while True:
     IP = subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = "hostname | cut -d' ' -f1"
     hostname = subprocess.check_output(cmd, shell=True).decode("utf-8")
-    cmd = 'df -h | awk \'$NF=="/"{printf "Disk: %d/%d GB  (%s)", $3,$2,$5}\''
-    Disk = subprocess.check_output(cmd, shell=True).decode("utf-8")
 
     # Write four lines of text.
-    draw.text((x, top + 0), "IP: " + IP, font=font, fill=255)
-    draw.text((x, top + 8), "MAC: " + mac, font=font, fill=255)
-    draw.text((x, top + 16), "Hostname: " + hostname, font=font, fill=255)
-    draw.text((x, top + 25), Disk, font=font, fill=255)
+    draw.text((x, top + 0), "Name: " + hostname, font=font, fill=255)
+    draw.text((x, top + 12), "IP: " + IP, font=font, fill=255)
+    draw.text((x, top + 24), "(" + mac + ")", font=font, fill=255)
 
     # Display image.
     disp.image(image)
     disp.show()
-    time.sleep(5)
+    time.sleep(10)
