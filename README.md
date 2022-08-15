@@ -1,9 +1,9 @@
-kaliPi Mini Display
+kaliPi Mini Display + Reporter Module
 ========================
 
-A tiny screen on your kaliPi that shows the name, current IP and MAC address of your device.
+A tiny screen on your kaliPi that shows the name, current IP and MAC address of your device. The additional reporter module can also send you all this information via Telegram.
 
-This project mainly intends to support acquiring a device's IP on a network more quickly. Especially in large company networks with restricted NATs it can sometimes be a lengthy process to determine the IP from the "outside".
+The project intends to help in acquiring a device's IP on a network more quickly. Especially in large company networks with restricted NATs it can sometimes be a lengthy process to determine the IP from the "outside".
 
 The code is python-based. Assembly is pretty much lego-like.
 
