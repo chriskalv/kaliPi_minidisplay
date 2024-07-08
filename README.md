@@ -26,6 +26,7 @@ sudo apt-get install python3-pip
 sudo pip3 install adafruit-circuitpython-ssd1306
 sudo apt-get install python3-pil
 sudo pip install getmac
+sudo apt-get install i2c-tools
 ```
 3. Edit/add the following lines in the config file (`sudo nano /boot/config.txt`) and save it in order to enable I2C and change the I2C core frequency to 100 kHz:
 ```python
